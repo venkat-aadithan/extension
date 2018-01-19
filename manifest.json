@@ -14,5 +14,15 @@
   "permissions": [
     "activeTab",
     "storage"
-  ]
+  ],
+  "content_scripts": [
+      {
+          "matches": [
+              "https://www.irctc.co.in/*"
+          ],
+          "js": [
+              "myscript.js"
+          ]
+      }
+  ]    
 }
