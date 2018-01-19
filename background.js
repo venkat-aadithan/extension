@@ -1,5 +1,11 @@
-alert();
-window.open('http://www.irctc.co.in',function(){
-	$('input[name="j_username"]').val('test');
-	$('input[name="j_password"]').val('test');
+chrome.browserAction.onClicked.addListener(function(activeTab)
+{
+    var newURL = "http://www.irctc.co.in/";
+    chrome.tabs.create({ url: newURL },function(){
+    	//alert('tab created');
+    	document.getElementById('usernameId').value = 'new@gmail.com';
+    	console.log(uname);
+    })
+    	
+    
 });
