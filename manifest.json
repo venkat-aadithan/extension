@@ -1,8 +1,7 @@
 {
   "manifest_version": 2,
-
   "name": "tatkal",
-  "description": "This extension allows the user to change the background color of the current page.",
+  "description": "This extension allows book tatkal ticket at easiest and fastest way.",
   "version": "1.0",
   "browser_action": {
     "default_icon": "icon.png"
@@ -21,6 +20,7 @@
               "https://www.irctc.co.in/*"
           ],
           "js": [
+              "jquery-3.2.1.slim.js",
               "myscript.js"
           ]
       }
