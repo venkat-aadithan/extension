@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
-	$('#usernameId').val('arul654321');
-	$('input[name="j_password"]').val('Arul654321');
+	$('#usernameId').val('*********');
+	$('input[name="j_password"]').val('**********');
 	$('input[name="j_captcha"]').focus();
 	$('input[name="j_captcha"]').keyup(function(){
 		if($(this).val().length === 5){
@@ -18,6 +18,6 @@ $(document).ready(function(){
 	}	
 	
 
-	$('.journeyTrainList').children('')
+	//$('.journeyTrainList').children('')
 	
 });
