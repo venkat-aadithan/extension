@@ -17,7 +17,4 @@ $(document).ready(function(){
 		$('input[name="jpform:jpsubmit"]').trigger('click');
 	}	
 	
-
-	//$('.journeyTrainList').children('')
-	
 });
